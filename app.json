@@ -1,10 +1,10 @@
 {
   "expo": {
     "name": "Servicio del Campo",
-    "slug": "Servicio-del-Campo",
+    "slug": "servicereport",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/splash.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/splash.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ysacc.servicereport"
     },
     "web": {
       "favicon": "./assets/splash.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "10f9cbdd-663f-405a-a250-8cccd62a587c"
+      }
+    },
+    "owner": "ysacc"
   }
 }
